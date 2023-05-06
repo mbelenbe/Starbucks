@@ -74,3 +74,66 @@
     margin-top:15px  ;
     width: 85%;
 }
+.contactanos{
+    background-color: #1a1818;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactanos__palabra{
+    color: #006241;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.contactanos__formulario{
+    background-color: #006241;
+    padding: 15px 15px;
+    color: #fff;
+    width: 280px;
+}
+.contactanos__input input{
+    font-size: 15px 0 25px;
+}
+.contactanos__input{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+}
+.contactanos__input input::placeholder, 
+.contactanos__input textarea::placeholder{
+    font-size: 12px;
+    color: #006241;
+    font-weight: bold;
+}
+.contactanos__input input,
+.contactanos__input textarea {
+    padding: 5px 5px;
+    border-radius: 7.5px;
+    border: 0;
+    margin-top: 10px;
+}
+.contactanos__input input:focus,
+.contactanos__input textarea:focus{
+    background-color: #000;
+    color: #006241;
+}
+.contactanos__boton{
+    background-color: #006241;
+    border-radius: 15px;
+    width: 45%;
+    border: 1px #fff solid;
+    color: #fff;
+    margin-top: 15px;
+    text-align: center;
+    padding: 4px 0;
+    transition: 0.5s all;
+
+}
+.contactanos__boton:hover{
+    background-color: yellow;
+    border: 1px solid yellow;
+}
