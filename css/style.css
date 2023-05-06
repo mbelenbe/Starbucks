@@ -33,3 +33,32 @@
     color: #fff;
     font-size: 30px;
 }
+.main__imagen{
+    display: none;
+}
+.galeria__cafe{
+    width: 20px;
+    border: 0.5px solid white;
+}
+.cards__foto1{
+    width: 20px;
+}
+.main{
+    margin-top: 80px;
+    padding: 15px 15px 40px;
+}
+.main__contain-text{
+    display: flex;
+    flex-direction: column;
+}
+.main__titulo{
+    font-size: 50px;
+    line-height: 1.2;
+}
+.main__titulo span{
+    color: #006241;
+}
+.main__descripcion{
+    font-weight: bolder;
+    margin-top: 20px;
+}
