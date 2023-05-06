@@ -137,3 +137,73 @@
     background-color: yellow;
     border: 1px solid yellow;
 }
+.cards{
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards__contenido1{
+    background-color: #006241;
+    margin-top: 45px;
+    color: #fff;
+    position: relative;
+    width: 85%;
+
+}
+.cards__foto1{
+    width: 100%;
+}
+.cards__titulo1 span{
+    color: yellow;
+}
+.cards__contienetodotexto{
+    padding: 20px 10px;
+}
+.cards__texto1{
+    font-size: 12px;
+    margin: 7.5px 0;
+}
+.cards__boton{
+    background-color: #006241;
+    border-radius: 7.5px;
+    width: 70px;
+    border: 1px #fff solid;
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px 20px;
+    transition: 0.5s all;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+.cards__boton:hover{
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+.cards__containbtn{
+    display: flex;
+    flex-direction: column;
+}
+.cards__containbtn a{
+    width: 90%;
+    margin: 0px 10px 7.5px;
+    text-align: center;
+}
+.cards__descuento{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 65px;
+    border: 0.5px solid #000;
+    height: 65px;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
