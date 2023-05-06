@@ -62,3 +62,15 @@
     font-weight: bolder;
     margin-top: 20px;
 }
+.galeria{
+    background-color: #006241;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.galeria__cafe{
+    margin-top:15px  ;
+    width: 85%;
+}
