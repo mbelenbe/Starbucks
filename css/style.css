@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+*::selection{
+    background-color: #006241;
+    color: white;
+}
+.header{
+    background-color: #006241;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.header__logo{
+    width: 40px;
+    margin: 5px;
+}
+.header__nav, .header__contain-login{
+    display: none;
+}
+.container-login-mobile i {
+    color: #fff;
+    font-size: 30px;
+}
