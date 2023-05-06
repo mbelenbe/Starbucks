@@ -207,3 +207,34 @@
     top: -25px;
     right: -25px;
 }
+.footer {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px;
+}
+
+.footer__contain-iniciarsesion{
+    display: flex;
+    flex-direction: column;
+}
+.footer__iniciosesion{
+    color: #006241;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer_redes i{
+    color: #006241;
+    font-size: 22px;
+}
+.footer_redes{
+    margin: 10px 0;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer__contact{
+    color: #13a574;
+    text-decoration: none;
+}
